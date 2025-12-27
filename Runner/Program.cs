@@ -1,7 +1,5 @@
 ﻿using Domain.Implementations;
-using Domain.Interfaces;
 
-IDay4 day4 = new Day4("Input/day_4.txt");
-day4.RemoveAccessiblePaperRolls();
+var day5 = new Day5();
 
-Console.WriteLine($"Amount of removed rolls: {day4.GetAmountOfRemovedRolls()}");
+await day5.SolvePart2("Input/day_5.txt");

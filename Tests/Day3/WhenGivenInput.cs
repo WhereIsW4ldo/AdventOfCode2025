@@ -1,6 +1,6 @@
-using System.Diagnostics.CodeAnalysis;
 using Domain.Interfaces;
 using Shouldly;
+using System.Diagnostics.CodeAnalysis;
 using Xunit;
 
 namespace Tests.Day3;

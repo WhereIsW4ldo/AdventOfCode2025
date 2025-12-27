@@ -11,7 +11,8 @@ public interface IDay1 : IDay
     void UpdateValue(int turnValue, Direction direction);
 }
 
-public enum Direction {
+public enum Direction
+{
     Left,
     Right
 }

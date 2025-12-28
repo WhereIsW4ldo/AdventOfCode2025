@@ -1,5 +1,5 @@
 ﻿using Domain.Implementations;
 
-var day5 = new Day5();
+var day6 = new Day6();
 
-await day5.SolvePart2("Input/day_5.txt");
+await day6.SolvePart2("Input/day_6.txt");
